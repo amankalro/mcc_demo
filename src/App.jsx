@@ -933,11 +933,12 @@ const CSS = `
     .nav-order         { display: none; }
     .hamburger         { display: flex; }
 
-    .hero              { height: 75vh; min-height: 520px; }
+    .hero              { height: 75vh; min-height: 520px; justify-content: center; }
     .hero-bg           { inset: -5% 0; background-position: center center; }
-    .hero-content      { padding: 0 24px; max-width: 100%; }
-    .hero-sub          { max-width: 100%; margin-bottom: 36px; }
-    .hero-btns         { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .hero-content      { padding: 0 24px; max-width: 100%; text-align: center; }
+    .hero-eyebrow      { justify-content: center; }
+    .hero-sub          { max-width: 100%; margin-bottom: 36px; margin-inline: auto; }
+    .hero-btns         { flex-direction: column; align-items: center; gap: 12px; }
     .scroll-indicator  { display: none; }
 
     .about             { padding: 80px 0; }
