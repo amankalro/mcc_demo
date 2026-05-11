@@ -933,6 +933,8 @@ const CSS = `
     .nav-order         { display: none; }
     .hamburger         { display: flex; }
 
+    .hero              { height: 75vh; min-height: 520px; }
+    .hero-bg           { inset: -5% 0; background-position: center center; }
     .hero-content      { padding: 0 24px; max-width: 100%; }
     .hero-sub          { max-width: 100%; margin-bottom: 36px; }
     .hero-btns         { flex-direction: column; align-items: flex-start; gap: 12px; }
